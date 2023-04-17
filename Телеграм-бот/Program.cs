@@ -8,7 +8,7 @@ using Telegram.Bot.Types.ReplyMarkups;
 
 internal class Program
 {
-    static ITelegramBotClient bot = new TelegramBotClient("6251591558:AAHIT9WgnmyBwvf-YeiqN1ROhy80FgWKM-Q");
+    static ITelegramBotClient bot = new TelegramBotClient("6251591558:AAHIT9WgnmyBwvf-YeiqN1ROhy80FgWKM**");
 
     public static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
     {
